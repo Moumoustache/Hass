@@ -3,12 +3,19 @@
 ## General structuration
 ![alt text](https://github.com/Moumoustache/Hass/blob/master/Structuration.png "netatmo")
 
-## EndPoints used :
+## Services used :
 Homesdata (HD)
+* Endpoints:
 ```https://api.netatmo.com/api/homesdata```
+* Documentation:
+```https://dev.netatmo.com/resources/technical/reference/energy/homesdata```
 
 Homestatus (HS)
+* Endpoints:
 ```https://api.netatmo.com/api/homestatus```
+* Documentation:
+```https://dev.netatmo.com/resources/technical/reference/energy/homestatus```
+
 
 ## Step
 1- Call homesdata to get home/rooms/modules structuration by looping on every entities. Are expected only NATherm1 (thermostat)and NRV (valve) for modules
