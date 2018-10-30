@@ -27,6 +27,7 @@ Homestatus (HS)
 ## Home structure
 From HS:
 * id
+
 From HD:
 * id
 * name
@@ -48,6 +49,7 @@ From HS:
   * definition : is there at least one module of the room reachable
   * value : true, false
   * example : true
+  
 From HD:
 * id
 * name
@@ -57,18 +59,6 @@ From HD:
   * example : kitchen
 
 ## Modules structure
-From HS:
-* id
-* reachable
-  * defintion : is connected or not
-  * example : 22.4
-* therm_setpoint_temperature
-  * defintion : target temperature in the room
-  * example : 18
-* therm_setpoint_mode: "schedule"
-  * defintion : actual mode
-  * value : manual, max, off, schedule, away, hg
-  * example : manual
 From HS:
 * id
 * reachable
@@ -89,6 +79,7 @@ From HS:
   * definition: is a valve controlling the boiler
   * value: true, false
   * example : true
+  
 From HD:
 * name
 * type
